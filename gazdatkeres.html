@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Web Cloud - Gazdát Keres! </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HONLAP</a></li>
+                        <li><a href="bemutatkozo.html">BEMUTATKOZÓ</a></li>
+                        <li><a href="eleterol.html">SZOLGÁLTATÁSOK</a></li>
+                        <li><a href="gazdatkeres.html">GAZDÁT KERES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Gazdát Keres!</h1>
+        </section>
+        
+        <!------------------ Rólunk kontent ------------------>
+        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1>Szundi</h1>
+                <p>Nógrád megye, Palotás! </p>
+                    <p>"Sürgősen ideiglenes befogadót vagy örökbefogadót keresünk Szundinak! </p>
+                    <p>Ideiglenes gazdájától azonnal el kell hoznom, az okok nem publikusak, de nem a kutyával van a baj. Szundi élete jelenlegi helyén veszélyben van.</p>
+                    <p>Szundi másfél éves szuka, oltott, chipelt. Ivartalanítás előtt áll.</p>
+                    <p>Eddig falkában élt, de egyedüli kutyusként is megállja a helyét. Puha, selymes szőre van, kistestű.</p>
+                    <p>Kinti-benti tartásra adom örökbe, főként friss nyugdíjas gazdában gondolkodva." - Írta aggódva Tünde.</p>
+                    <p>Eredeti posztja: <a href="https://m.facebook.com/groups/palotaskornyekiallatmentocsoport/permalink/5137029463077217/">A LINKRE KATTINTVA MEGNÉZHETED</a></p>
+                </div>
+                <div class="about-col">
+                    <img src="szundi.jpg" alt="kutyus">
+                </div>
+            </div>
+        </section>
+        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1>Kamilla</h1>
+                <p>OSZD meg ŐT, otthont kell találnunk neki is! </p>
+                    <p>"Van nekünk egy kis patronáltunk, a neve Kamilla. Szeretnénk nektek meg- és bemutatni őt. </p>
+                    <p>3 hét telt el a támogatásba vétele óta, hatalmas ödéma volt az oldalán, amit könnyen lehet, hogy ütés okozott és félelmében támadott! A félénksége és bizonytalansága sokat “szelidült”, hisz és bízik, de ahhoz, hogy igazán magabiztos és bátor kutya legyen egy otthonra van szüksége. Saccolt életkora 3-4 hónap, felnőtt korára meglátásunk szerint max. kisközepes testű kutya lesz.</p>
+                    <p>Szeretnénk neki egy türelmes és szerető gazdit, aki vigyáz rá. Csakis ivartalalnítási kötelezettséggel, szerződéssel, kapcsolattartással költözhet majd új otthonába. Tiszaföldváron előre egyeztetett módon látogatható.</p>
+                    <p>Amennyiben segíteni szeretnéd az ellátást, akkor arra kérünk, hogy tedd meg. Jelenleg minőségi kölyök tápot eszik, mellé kap Gastroferm port és DM Guard immunerősítőt.</p>
+                    <p>Arra kérünk Benneteket, hogy támogassátok a tevékenységünket, hiszen egyesületünk idén először kapott lehetőséget az szja 1%-nak gyűjtésére, ezidáig a támogatás ezen formájára sem számíthattunk és semmilyen egyéb állami támogatásunk sincsen, csakis rátok számíthatunk az ÉV MINDEN NAPJÁN.</p>
+                    <p>Előzmények: <a href="https://fb.watch/jofvBKlzbQ/">A LINKRE KATTINTVA MEGNÉZHETED</a></p>
+                    <p>Ha támogatni tudjátok a tevékenységünket, akkor kérünk szépen Benneteket, hogy tegyétek meg akár egy kiló kenyér árával, hiszen már ez az összeg is a túlélésre ad lehetőséget a hontalanok számára." - Írta a Teli tál- teli pocak Állatjóléti Egyesület egyik tagja Facebookon.</p>
+                </div>
+                <div class="about-col">
+                    <img src="kamilla.jpg" alt="kutyus">
+                </div>
+            </div>
+        </section>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>Web Cloud Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>Semmi sem felhasználható sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Telefonszám"></i></a>
+                <a href=""><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with by Miksa Tardos</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>

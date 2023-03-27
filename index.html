@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Web Cloud - Felhőszolgáltatások</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HONLAP</a></li>
+                        <li><a href="bemutatkozo.html">BEMUTATKOZÓ</a></li>
+                        <li><a href="eleterol.html">SZOLGÁLTATÁSOK</a></li>
+                        <li><a href="gazdatkeres.html">GAZDÁT KERES</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Web Cloud</h1>
+                <p>A webszolgáltatásegy olyaninterface, amely hálózaton keresztül,<br> szabványos XML üzenetekkelelérhető műveletek egy csoportját írja le.</p>
+                <a href="eleterol.html" class="hero-btn">SZOLGÁLTATÁSAINK</a>
+            </div>
+        </section>
+        
+
+        <!------------------ Course ------------------>
+        <section class="course">
+            <h1>Ötcsillagos könyvelési garancia</h1>
+                <p>Felhő alapú könyvelés esetén 48 órán belül, hagyományos könyvelési szolgáltatás estén 1 héten belül megtörténik a bizonylatok könyvelése.</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Magas szintű szolgáltatás</h3>
+                    <p>A legmagasabb szintű szolgáltatásra törekszünk. Nálunk a könyvelés nem merül ki a bizonylatok egyszerű rögzítésében és a bevallások határidőben történő benyújtásában.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Érthető kommunikáció</h3>
+                    <p>Mi mindig segítünk Önnek értelmezni a könyvelésből kinyert információkat. A főkönyvi és analitikus nyilvántartás adatait mindenki számára érthető nyelvezetre fordítjuk.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Sok éves pénzügyi tapasztalat</h3>
+                    <p>Sokéves tapasztalatunkat felhasználva az alap könyvelési szolgáltatásunkon túl kontrolling tevékenységet és üzleti tanácsadást is nyújtunk partnereink részére. Célunk, hogy Ön a legmagasabb nyereséget érje el, a legális eszközök kihasználásával.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer">
+            <h4>Web Cloud Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>Semmi sem felhasználható sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Telefonszám"></i></a>
+                <a href=""><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>
